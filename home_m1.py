@@ -1,8 +1,6 @@
 import time
 import os
 
-strc1 = [1]
-
 str1 = """
                                        $$$$$$$$
                                 $$$$$$$$$$$$$$$$$$
@@ -71,7 +69,7 @@ str2 = """
                            $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
                            """
 
-for strc1 in range (4):
+for i in range (4):
   os.system('cls')
   print(str1, end='\r')
   time.sleep(1)
